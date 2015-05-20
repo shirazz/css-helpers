@@ -1,0 +1,22 @@
+{
+  "name": "css-helper-classes",
+  "version": "1.0.0",
+  "homepage": "https://github.com/shirazz/css-helpers",
+  "authors": [
+    "shiraz <shirazwaits@gmail.com>"
+  ],
+  "description": "The helper classes used for frontend development.",
+  "main": "common-base.css",
+  "keywords": [
+    "css",
+    "css-helpers"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
