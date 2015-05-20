@@ -1,0 +1,345 @@
+@charset "utf-8";
+/*
+	CSS Document
+	Project : NA
+	File 	: common-base.css
+	Date 	: 20/05/15(dd-mm-yy)
+	Author  : shiraz(shiraz@digitalbrandgroup.com)
+*/
+
+/* =============================================================================
+	 Helper classes (Ordered alphabetically)
+========================================================================== */
+
+.asterisk {
+	color:#ff0000;
+}
+.auto-flow {
+	overflow:auto;
+}
+.bold {
+	font-weight:bold;
+}
+.bottom {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+.block {
+	display:block;
+}
+.check {
+	border:1px solid red;
+}
+.check-bg {
+	background:red;
+}
+.chromeframe {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	line-height:0;
+}
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.ellipsis {
+	text-overflow: ellipsis;
+}
+.error {
+	color:#ff0000;
+	line-height:normal;
+}
+.first {
+	margin-left:0;
+	padding-left:0;
+}
+.float-left {
+	float:left;
+}
+.float-right {
+	float:right;
+}
+.float-none {
+	float:none;
+}
+.hide {
+	display: none;
+	visibility: hidden;
+}
+.hide-flow {
+	overflow:hidden;
+}
+.highlight {
+	background:#ffc;
+}
+.hr {
+	border-bottom:1px solid #d3d3d3;
+	float:left;
+	font-size:0;
+	line-height:1px;
+	margin:0 0 20px;
+	width:100%;
+}
+.hr hr {
+	display:none;
+}
+.img-btn {
+  font-size:0;
+  line-height:0;
+  cursor:pointer;
+  overflow:hidden;
+  border:0 none;
+  text-indent:-999em;
+}
+.img-left {
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+.img-replace {
+	display: block;
+	border: 0;
+	text-indent: -999em;
+	overflow: hidden;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	text-align: left;
+	direction: ltr;
+}
+.img-right {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+.inline {
+	display:inline;
+}
+.inline-block {
+	display:inline-block;
+}
+.invisible {
+	visibility: hidden;
+}
+.large {
+	font-size: 1.2em;
+	margin-bottom: 1.25em;
+	line-height: 2.5;
+}
+.last {
+	margin-right:0;
+	padding-right:0;
+}
+.loud {
+	color:#000;
+}
+.margin-auto {
+	margin:0 auto;
+}
+.max-width {
+	width:100%;
+}
+.no-bg {
+	background:none;
+}
+.no-bg-color {
+	background-color:transparent;
+}
+.no-bg-img {
+	background-image:none;
+}
+.no-border {
+	border:0px none;
+}
+.no-btm-margin {
+	margin-bottom:0px;
+}
+.no-btm-padding {
+	padding-bottom:0px;
+}
+.no-bullet {
+	list-style:none;
+	list-style-image:none;
+}
+.no-indent {
+	text-indent:0px;
+}
+.no-lft-margin {
+	margin-left:0px;
+}
+.no-lft-padding {
+	padding-left:0px;
+}
+.no-margin {
+	margin:0;
+}
+.no-margin-padding {
+	padding: 0;
+	margin: 0;
+}
+.no-padding {
+	padding:0;
+}
+.no-rgt-margin {
+	margin-right:0px;
+}
+.no-rgt-padding {
+	padding-right:0px;
+}
+.no-top-margin {
+	margin-top:0px;
+}
+.no-top-padding {
+	padding-top:0px;
+}
+.normal{
+	font-weight:normal;
+}
+.pos-absolute {
+	position:absolute;
+}
+.pos-fixed {
+	position:fixed;
+}
+.pos-relative {
+	position:relative;
+}
+.pos-static {
+	position: static;
+}
+.quiet {
+	color:#fff;
+}
+.removed {
+	background:#900;
+	color:#fff;
+}
+.scroll-flow {
+	overflow:scroll;
+}
+.small {
+	font-size: .8em;
+	margin-bottom: 1.875em;
+	line-height: 1.875;
+}
+.show {
+	display:block;
+	visibility:visible;
+}
+.show-flow {
+	overflow:visible;
+}
+.spacer {
+	padding-bottom:20px;
+	width:100%;
+	font-size:0;
+	height:0;
+	line-height:0;
+	float:left;
+}
+.table-cell {
+	display: table-cell;
+}
+.table-layout-fixed {
+	table-layout: fixed;
+}
+.text-center {
+	text-align:center
+}
+.text-justify {
+	text-align:justify
+}
+.text-left {
+	text-align:left
+}
+.text-right {
+	text-align:right
+}
+.to-capitalize {
+	text-transform:capitalize;
+}
+.to-lowercase {
+	text-transform:lowercase;
+}
+.top {
+	margin-top:0;
+	padding-top:0;
+}
+.to-uppercase {
+	text-transform:uppercase;
+}
+.txt-indent {
+	text-indent:-999em;
+}
+.txt-italic {
+	font-style:italic;
+}
+.txt-normal {
+	font-style:normal;
+}
+.txt-remove-underline {
+	text-decoration: none;
+}
+.txt-replace {
+	text-indent:-999em;
+	font-size:0;
+	line-height:0;
+	overflow: hidden;
+}
+.txt-underline {
+	text-decoration:underline;
+}
+.underline {
+	border-bottom:1px solid;
+}
+.visible {
+	visibility: visible;
+}
+.word-wrap {
+	word-wrap:break-word;
+	white-space: normal;
+}
+
+/*=============================================================================
+	* Common styles for adjusting margins and paddings
+=============================================================================-*/
+
+.margin-btm-05 { margin-bottom:5px; }  .margin-btm-10{ margin-bottom:10px; } .margin-btm-15{ margin-bottom:15px; }
+.margin-btm-20 { margin-bottom:20px; } .margin-btm-25{ margin-bottom:25px; } .margin-btm-30{ margin-bottom:30px; }
+
+.margin-lft-05 { margin-left:5px; }  .margin-lft-10{ margin-left:10px; } .margin-lft-15{ margin-left:15px; }
+.margin-lft-20 { margin-left:20px; } .margin-lft-25{ margin-left:25px; } .margin-lft-30{ margin-left:30px; }
+
+.margin-rgt-05 { margin-right:5px; }  .margin-rgt-10{ margin-right:10px; } .margin-rgt-15{ margin-right:15px; }
+.margin-rgt-20 { margin-right:20px; } .margin-rgt-25{ margin-right:25px; } .margin-rgt-30{ margin-right:30px; }
+
+.margin-top-05 { margin-top:5px; }  .margin-top-10 { margin-top:10px; } .margin-top-15{ margin-top:15px; }
+.margin-top-20 { margin-top:20px; } .margin-top-25 { margin-top:25px; } .margin-top-30 { margin-top:30px; }
+
+.padding-btm-05 { padding-bottom:5px; }  .padding-btm-10{ padding-bottom:10px; } .padding-btm-15{ padding-bottom:15px; }
+.padding-btm-20 { padding-bottom:20px; } .padding-btm-25{ padding-bottom:25px; } .padding-btm-30{ padding-bottom:30px; }
+
+.padding-lft-05 { padding-left:5px; }  .padding-lft-10{ padding-left:10px; } .padding-lft-15{ padding-left:15px; }
+.padding-lft-20 { padding-left:20px; } .padding-lft-25{ padding-left:25px; } .padding-lft-30{ padding-left:30px; }
+
+.padding-rgt-05 { padding-right:5px; }  .padding-rgt-10{ padding-right:10px; } .padding-rgt-15{ padding-right:15px; }
+.padding-rgt-20 { padding-right:20px; } .padding-rgt-25{ padding-right:25px; } .padding-rgt-30{ padding-right:30px; }
+
+.padding-top-05 { padding-top:5px; }  .padding-top-10{ padding-top:10px; } .padding-top-15{padding-top:15px;}
+.padding-top-20 { padding-top:20px; } .padding-top-25{ padding-top:25px; } .padding-top-30{ padding-top:30px; }
+
+/*=============================================================================*/
